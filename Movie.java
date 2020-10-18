@@ -69,6 +69,34 @@ public class Movie implements Comparable<Movie>{
 		return ratings;
 	}
 
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public void setDirector(String director) {
+		this.director = director;
+	}
+
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+
+	public void setRuntime(int runtime) {
+		this.runtime = runtime;
+	}
+
+	public void setActors(String[] actors) {
+		this.actors = actors;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public void setRatings(double ratings) {
+		this.ratings = ratings;
+	}
+
 	@Override
 	public String toString() {
 		return getTitle();
