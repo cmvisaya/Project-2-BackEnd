@@ -15,6 +15,16 @@ public class Movie implements Comparable<Movie>{
 	private int year;
 	private double ratings;
 	
+	public Movie() {
+		this.title = "";
+		this.director = "";
+		this.genre = "";
+		this.runtime = 0;
+		this.actors = new String[0];
+		this.year = 0;
+		this.ratings = 0;
+	}
+	
 	public Movie(String title, String director, String genre, int runtime, String[] actors, int year, double rating) {
 		this.title = title;
 		this.director = director;
